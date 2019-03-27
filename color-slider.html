@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slider</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="center-slider">
+                <label for="red" class="label">red</label> <input type="range" value="0" min="0" max="255" step="1" id="red" onchange="updateValue();" class="range"><span class="show-value">0</span>
+            </div>
+        </div>
+        <div class="slider-wrapper">
+            <div class="center-slider">
+                <label for="green" class="label">green</label> <input type="range" value="0" min="0" max="255" step="1" id="green" onchange="updateValue();" class="range"><span class="show-value">0</span>
+            </div>
+        </div>
+        <div class="slider-wrapper">
+            <div class="center-slider">
+                <label for="blue" class="label">blue</label> <input type="range" value="0" min="0" max="255" step="1" id="blue" onchange="updateValue();" class="range"><span class="show-value">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
